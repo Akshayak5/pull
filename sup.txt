@@ -1,4 +1,4 @@
-git clone 
+git clone url
 $ cd pull
 $ touch about.txt
 $ vim about.txt
@@ -6,7 +6,7 @@ $ git commit -m "hiiii"
 $ git add about.txt
 $ git status
 $ git commit -m "hiiii"
-$ git push origin main
+$ git push https://username:token@github.com/username/repositoryname.git
 
 
 
