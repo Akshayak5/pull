@@ -1,48 +1,13 @@
 git clone 
-STUDENT@DESKTOP-S0EL170 MINGW64 ~ (master)
 $ cd pull
-
-STUDENT@DESKTOP-S0EL170 MINGW64 ~/pull (main)
 $ touch about.txt
-
-STUDENT@DESKTOP-S0EL170 MINGW64 ~/pull (main)
 $ vim about.txt
-
-STUDENT@DESKTOP-S0EL170 MINGW64 ~/pull (main)
 $ git commit -m "hiiii"
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   about.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-
-STUDENT@DESKTOP-S0EL170 MINGW64 ~/pull (main)
 $ git add about.txt
-
-STUDENT@DESKTOP-S0EL170 MINGW64 ~/pull (main)
 $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   about.txt
-
-
-STUDENT@DESKTOP-S0EL170 MINGW64 ~/pull (main)
 $ git commit -m "hiiii"
-[main 3ad5f6b] hiiii
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-STUDENT@DESKTOP-S0EL170 MINGW64 ~/pull (main)
 $ git push origin main
-fatal: User cancelled dialog.
-error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
-Username for 'https://github.com': git g
+
 
 
 
