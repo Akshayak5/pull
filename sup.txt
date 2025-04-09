@@ -5,7 +5,7 @@ $ vim about.txt
 $ git commit -m "hiiii"
 $ git add about.txt
 $ git status
-$ git commit -m "hiiii"
+$ git commit -m "hiiii" (till this if no pat)
 $ git push https://username:token@github.com/username/repositoryname.git
 
 
