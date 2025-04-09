@@ -1,5 +1,5 @@
 git clone url
-$ cd pull
+$ cd pull(repname)
 $ touch about.txt
 $ vim about.txt
 $ git commit -m "hiiii"
